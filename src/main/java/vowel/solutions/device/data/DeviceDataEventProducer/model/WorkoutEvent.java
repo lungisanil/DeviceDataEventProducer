@@ -1,17 +1,17 @@
 package vowel.solutions.device.data.DeviceDataEventProducer.model;
 
 public class WorkoutEvent {
-    private long memberId;
+    private Long memberId;
     private String workoutType;
     private String deviceName;
-    private float averageSpeed;
-    private float averageHeartRate;
+    private Float averageSpeed;
+    private Float averageHeartRate;
 
-    public long getMemberId() {
+    public Long getMemberId() {
         return memberId;
     }
 
-    public WorkoutEvent setMemberId(long memberId) {
+    public WorkoutEvent setMemberId(Long memberId) {
         this.memberId = memberId;
         return this;
     }
@@ -34,20 +34,20 @@ public class WorkoutEvent {
         return this;
     }
 
-    public float getAverageSpeed() {
+    public Float getAverageSpeed() {
         return averageSpeed;
     }
 
-    public WorkoutEvent setAverageSpeed(float averageSpeed) {
+    public WorkoutEvent setAverageSpeed(Float averageSpeed) {
         this.averageSpeed = averageSpeed;
         return this;
     }
 
-    public float getAverageHeartRate() {
+    public Float getAverageHeartRate() {
         return averageHeartRate;
     }
 
-    public WorkoutEvent setAverageHeartRate(float averageHeartRate) {
+    public WorkoutEvent setAverageHeartRate(Float averageHeartRate) {
         this.averageHeartRate = averageHeartRate;
         return this;
     }
