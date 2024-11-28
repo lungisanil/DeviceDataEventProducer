@@ -9,8 +9,8 @@ import org.springframework.kafka.support.KafkaHeaders;
 import org.springframework.messaging.Message;
 import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.stereotype.Service;
-import vowel.solutions.device.data.DeviceDataEventProducer.model.WorkoutEvent;
 import vowel.solutions.device.data.DeviceDataEventProducer.service.KafkaProducerService;
+import vowel.solutions.device.data.device.data.event.producer.WorkoutEvent;
 
 @Service(value = "WorkoutEventKafkaProducerService")
 public class WorkoutEventKafkaProducerService implements KafkaProducerService<WorkoutEvent> {

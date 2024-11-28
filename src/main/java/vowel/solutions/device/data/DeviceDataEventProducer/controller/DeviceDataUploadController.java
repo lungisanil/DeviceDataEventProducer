@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import vowel.solutions.device.data.DeviceDataEventProducer.model.SuccessResponse;
-import vowel.solutions.device.data.DeviceDataEventProducer.model.WorkoutEvent;
 import vowel.solutions.device.data.DeviceDataEventProducer.service.DeviceDataUploadService;
+import vowel.solutions.device.data.device.data.event.producer.WorkoutEvent;
 
 @RestController
 @RequestMapping(value = "/workout-event", produces = MediaType.APPLICATION_JSON_VALUE)

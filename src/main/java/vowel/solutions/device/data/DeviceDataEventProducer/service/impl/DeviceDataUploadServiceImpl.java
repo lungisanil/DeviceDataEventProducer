@@ -3,9 +3,9 @@ package vowel.solutions.device.data.DeviceDataEventProducer.service.impl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
-import vowel.solutions.device.data.DeviceDataEventProducer.model.WorkoutEvent;
 import vowel.solutions.device.data.DeviceDataEventProducer.service.DeviceDataUploadService;
 import vowel.solutions.device.data.DeviceDataEventProducer.service.KafkaProducerService;
+import vowel.solutions.device.data.device.data.event.producer.WorkoutEvent;
 
 @Service
 public class DeviceDataUploadServiceImpl implements DeviceDataUploadService {
